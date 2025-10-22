@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Vocabulary - English Learning App{% endblock %}
+
+{% block content %}
+<h2>Your Vocabulary</h2>
+
+{% if words %}
+    <div class="word-list">
+        {% for word in words %}
+        <div class="word-item">
+            <div class="word-content">
+                <strong>{{ word.french }}</strong>
+                <span class="arrow">→</span>
+                <span>{{ word.english }}</span>
+            </div>
+            <form method="POST" action="{{ url_for('delete_word', index=loop.index0) }}" style="display:inline;">
+                <button type="submit" class="btn-delete" onclick="return confirm('Delete this word?')">Delete</button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+    <p class="word-count">Total words: {{ words|length }}</p>
+{% else %}
+    <p class="no-words">No words in vocabulary yet. <a href="{{ url_for('add_word') }}">Add your first word</a>!</p>
+{% endif %}
+
+<div class="actions">
+    <a href="{{ url_for('add_word') }}" class="btn btn-primary">Add New Word</a>
+    <a href="{{ url_for('index') }}" class="btn">Back to Home</a>
+</div>
+{% endblock %}

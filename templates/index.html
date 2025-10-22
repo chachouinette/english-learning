@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Home - English Learning App{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h2>Welcome to English Learning App</h2>
+    <p>Learn French to English vocabulary with interactive quizzes!</p>
+</div>
+
+<div class="cards">
+    <div class="card">
+        <h3>Start Quiz</h3>
+        <p>Test your knowledge with a fun quiz</p>
+        <a href="{{ url_for('quiz') }}" class="btn btn-primary">Start Quiz</a>
+    </div>
+
+    <div class="card">
+        <h3>View Vocabulary</h3>
+        <p>Browse all your saved words</p>
+        <a href="{{ url_for('vocabulary') }}" class="btn">View Words</a>
+    </div>
+
+    <div class="card">
+        <h3>Add New Word</h3>
+        <p>Expand your vocabulary</p>
+        <a href="{{ url_for('add_word') }}" class="btn">Add Word</a>
+    </div>
+</div>
+{% endblock %}

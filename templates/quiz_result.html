@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz Result - English Learning App{% endblock %}
+
+{% block content %}
+<div class="quiz-container">
+    <div class="result-feedback {% if is_correct %}correct{% else %}incorrect{% endif %}">
+        {% if is_correct %}
+            <h2>Correct!</h2>
+        {% else %}
+            <h2>Wrong!</h2>
+            <p>The correct answer is: <strong>{{ correct_answer }}</strong></p>
+            <p class="french-reminder">{{ french_word }} → {{ correct_answer }}</p>
+        {% endif %}
+    </div>
+
+    {% if show_final %}
+        <div class="final-score">
+            <h3>Quiz Complete!</h3>
+            <p class="score-big">{{ final_score }} / {{ total }}</p>
+            <p class="percentage">{{ (final_score / total * 100)|round(1) }}%</p>
+        </div>
+        <div class="actions">
+            <a href="{{ url_for('quiz') }}" class="btn btn-primary">Try Again</a>
+            <a href="{{ url_for('index') }}" class="btn">Back to Home</a>
+        </div>
+    {% else %}
+        <div class="quiz-progress-bar">
+            <div class="progress-fill" style="width: {{ (question_num / total * 100) }}%"></div>
+        </div>
+        <p class="quiz-progress">Score: {{ score }} | Question {{ question_num }} of {{ total }}</p>
+
+        <div class="next-question">
+            <h3>Next word:</h3>
+            <p class="french-word">{{ next_word.french }}</p>
+        </div>
+
+        <form method="POST" action="{{ url_for('quiz_answer') }}" class="quiz-form">
+            <input type="text" name="answer" class="quiz-input" required autofocus placeholder="Enter English translation">
+            <button type="submit" class="btn btn-primary btn-large">Submit Answer</button>
+        </form>
+    {% endif %}
+</div>
+{% endblock %}

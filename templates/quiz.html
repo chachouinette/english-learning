@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz - English Learning App{% endblock %}
+
+{% block content %}
+{% if no_words %}
+    <div class="message error">
+        <h2>No Words Available</h2>
+        <p>You need to add some words before taking a quiz.</p>
+        <a href="{{ url_for('add_word') }}" class="btn btn-primary">Add Words</a>
+    </div>
+{% else %}
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <span class="quiz-progress">Question {{ question_num }} of {{ total }}</span>
+        </div>
+
+        <div class="quiz-question">
+            <h2>Translate this word:</h2>
+            <p class="french-word">{{ current_word.french }}</p>
+        </div>
+
+        <form method="POST" action="{{ url_for('quiz_answer') }}" class="quiz-form">
+            <input type="text" name="answer" class="quiz-input" required autofocus placeholder="Enter English translation">
+            <button type="submit" class="btn btn-primary btn-large">Submit Answer</button>
+        </form>
+    </div>
+{% endif %}
+{% endblock %}

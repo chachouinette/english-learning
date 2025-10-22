@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz Results - English Learning App{% endblock %}
+
+{% block content %}
+<div class="quiz-container">
+    <div class="final-results">
+        <h2>Quiz Complete!</h2>
+
+        <div class="score-display">
+            <div class="score-big">{{ score }} / {{ total }}</div>
+            <div class="percentage">{{ percentage|round(1) }}%</div>
+        </div>
+
+        {% if percentage >= 90 %}
+            <p class="result-message excellent">Excellent work!</p>
+        {% elif percentage >= 70 %}
+            <p class="result-message good">Good job!</p>
+        {% elif percentage >= 50 %}
+            <p class="result-message okay">Not bad, keep practicing!</p>
+        {% else %}
+            <p class="result-message needs-work">Keep studying, you'll improve!</p>
+        {% endif %}
+    </div>
+
+    <div class="actions">
+        <a href="{{ url_for('quiz') }}" class="btn btn-primary">Try Again</a>
+        <a href="{{ url_for('vocabulary') }}" class="btn">Review Vocabulary</a>
+        <a href="{{ url_for('index') }}" class="btn">Back to Home</a>
+    </div>
+</div>
+{% endblock %}
