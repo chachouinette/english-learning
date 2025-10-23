@@ -50,5 +50,25 @@
     {
         "french": "cravate",
         "english": "tie"
-    }
+    },
+    {
+        "french": "tour",
+        "english": "tower"
+    },
+    {
+        "french": "veste",
+        "english": "jacket"
+    },
+    {
+        "french": "fenêtre",
+        "english": "window"
+    },
+    {
+        "french": "probablement",
+        "english": "probably"
+    },
+    {
+        "french": "château",
+        "english": "castle"
+    }    
 ]
