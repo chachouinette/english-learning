@@ -74,5 +74,33 @@
     {
         "french": "pelouse",
         "english": "grass"
+    },
+    {
+        "french": "élève",
+        "english": "student,pupil"
+    },
+    {
+        "french": "mâcher",
+        "english": "to chew"
+    },
+    {
+        "french": "gum",
+        "english": "chewing-gum"
+    },
+    {
+        "french": "apporter",
+        "english": "to bring"
+    },
+    {
+        "french": "baskets",
+        "english": "sneakers,trainers"
+    },
+    {
+        "french": "couloirs",
+        "english": "corridors"
+    },
+    {
+        "french": "pendant",
+        "english": "during"
     }    
 ]
