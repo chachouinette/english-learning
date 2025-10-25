@@ -84,8 +84,8 @@
         "english": "to chew"
     },
     {
-        "french": "gum",
-        "english": "chewing-gum"
+        "french": "chewing-gum",
+        "english": "gum"
     },
     {
         "french": "apporter",
@@ -102,5 +102,53 @@
     {
         "french": "pendant",
         "english": "during"
+    },
+    {
+        "french": "allumer",
+        "english": "to switch on"
+    },
+    {
+        "french": "éteindre",
+        "english": "to switch off"
+    },
+    {
+        "french": "énorme",
+        "english": "huge"
+    },
+    {
+        "french": "chorale",
+        "english": "choir"
+    },
+    {
+        "french": "aviron",
+        "english": "rowing"
+    },
+    {
+        "french": "travailler en groupe",
+        "english": "to work in group"
+    },
+    {
+        "french": "faire une expérience",
+        "english": "to do an experiment"
+    },
+    {
+        "french": "discuter",
+        "english": "to chat"
+    },
+    {
+        "french": "partager",
+        "english": "to share"
+    },
+    {
+        "french": "résoudre",
+        "english": "to solve"
+    },
+    {
+        "french": "là-bas",
+        "english": "there"
+    },
+    {
+        "french": "pour finir",
+        "english": "finally"
     }    
 ]
