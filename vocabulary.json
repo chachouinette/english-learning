@@ -148,7 +148,55 @@
         "english": "there"
     },
     {
-        "french": "pour finir",
-        "english": "finally"
+        "french": "appelé",
+        "english": "named,called"
+    },
+    {
+        "french": "premier plan",
+        "english": "foreground"
+    },
+    {
+        "french": "deux conteneurs",
+        "english": "double docker"
+    },
+    {
+        "french": "arrière plan",
+        "english": "background"
+    },
+    {
+        "french": "aussi",
+        "english": "too"
+    },
+    {
+        "french": "cabine téléphonique",
+        "english": "telephone booth"
+    },
+    {
+        "french": "rivière",
+        "english": "river"
+    },
+    {
+        "french": "bâtiment",
+        "english": "building"
+    },
+    {
+        "french": "décrire",
+        "english": "to describe"
+    },
+    {
+        "french": "créer",
+        "english": "to create"
+    },
+    {
+        "french": "portes ouvertes",
+        "english": "open days"
+    },
+    {
+        "french": "dépliant",
+        "english": "leaflet"
+    },
+    {
+        "french": "éducation physique",
+        "english": "physical education"
     }    
 ]
