@@ -50,5 +50,89 @@
     {
         "french": "ouest",
         "english": "west"
+    },
+    {
+        "french": "sur la côte",
+        "english": "on the coast"
+    },
+    {
+        "french": "nature",
+        "english": "nature"
+    },
+    {
+        "french": "endroit",
+        "english": "place"
+    },
+    {
+        "french": "état",
+        "english": "state"
+    },
+    {
+        "french": "là-bas",
+        "english": "there"
+    },
+    {
+        "french": "camion",
+        "english": "truck"
+    },
+    {
+        "french": "personnage",
+        "english": "character"
+    },
+    {
+        "french": "but",
+        "english": "goal"
+    },
+    {
+        "french": "bon pour la santé",
+        "english": "healthy"
+    },
+    {
+        "french": "par exemple",
+        "english": "such as"
+    },
+    {
+        "french": "célèbre",
+        "english": "famous"
+    },
+    {
+        "french": "aussi",
+        "english": "also"
+    },
+    {
+        "french": "repas",
+        "english": "meal"
+    },
+    {
+        "french": "épicé",
+        "english": "spicy, hot"
+    },
+    {
+        "french": "avant",
+        "english": "before"
+    },
+    {
+        "french": "recette",
+        "english": "recipe"
+    },
+    {
+        "french": "riz",
+        "english": "rice"
+    },
+    {
+        "french": "oeuf",
+        "english": "egg"
+    },
+    {
+        "french": "tarte",
+        "english": "pie"
+    },
+    {
+        "french": "part",
+        "english": "slice"
+    },
+    {
+        "french": "morceau",
+        "english": "piece"
     }
 ]
