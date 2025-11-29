@@ -1,202 +1,54 @@
 [
     {
-        "french": "beaucoup",
-        "english": "many"
+        "french": "colline",
+        "english": "hill"
     },
     {
-        "french": "par exemple",
-        "english": "for instance, for example"
+        "french": "quelque",
+        "english": "some"
     },
     {
-        "french": "habiter",
-        "english": "to live"
+        "french": "haricot rouge",
+        "english": "red beans"
     },
     {
-        "french": "quitter",
-        "english": "to leave"
+        "french": "derrière",
+        "english": "behind"
     },
     {
-        "french": "règle (loi)",
-        "english": "rule"
+        "french": "palmier",
+        "english": "palm tree"
     },
     {
-        "french": "nom entier",
-        "english": "full name"
+        "french": "fromage râpé",
+        "english": "grated cheese"
     },
     {
-        "french": "règle (maths)",
-        "english": "ruler"
+        "french": "avoir faim",
+        "english": "to be hungry"
     },
     {
-        "french": "marcher",
-        "english": "to walk"
+        "french": "être en colère",
+        "english": "to be angry"
     },
     {
-        "french": "composé de",
-        "english": "made of"
+        "french": "carte",
+        "english": "map"
     },
     {
-        "french": "porter",
-        "english": "to wear"
+        "french": "le sud",
+        "english": "south"
     },
     {
-        "french": "rire",
-        "english": "to laugh"
+        "french": "nord",
+        "english": "north"
     },
     {
-        "french": "voir",
-        "english": "to see"
+        "french": "est",
+        "english": "east"
     },
     {
-        "french": "cravate",
-        "english": "tie"
-    },
-    {
-        "french": "tour",
-        "english": "tower"
-    },
-    {
-        "french": "veste",
-        "english": "jacket"
-    },
-    {
-        "french": "fenêtre",
-        "english": "window"
-    },
-    {
-        "french": "probablement",
-        "english": "probably"
-    },
-    {
-        "french": "château",
-        "english": "castle"
-    },
-    {
-        "french": "pelouse",
-        "english": "grass"
-    },
-    {
-        "french": "élève",
-        "english": "student,pupil"
-    },
-    {
-        "french": "mâcher",
-        "english": "to chew"
-    },
-    {
-        "french": "chewing-gum",
-        "english": "gum"
-    },
-    {
-        "french": "apporter",
-        "english": "to bring"
-    },
-    {
-        "french": "baskets",
-        "english": "sneakers,trainers"
-    },
-    {
-        "french": "couloirs",
-        "english": "corridors"
-    },
-    {
-        "french": "pendant",
-        "english": "during"
-    },
-    {
-        "french": "allumer",
-        "english": "to switch on"
-    },
-    {
-        "french": "éteindre",
-        "english": "to switch off"
-    },
-    {
-        "french": "énorme",
-        "english": "huge"
-    },
-    {
-        "french": "chorale",
-        "english": "choir"
-    },
-    {
-        "french": "aviron",
-        "english": "rowing"
-    },
-    {
-        "french": "travailler en groupe",
-        "english": "to work in group"
-    },
-    {
-        "french": "faire une expérience",
-        "english": "to do an experiment"
-    },
-    {
-        "french": "discuter",
-        "english": "to chat"
-    },
-    {
-        "french": "partager",
-        "english": "to share"
-    },
-    {
-        "french": "résoudre",
-        "english": "to solve"
-    },
-    {
-        "french": "là-bas",
-        "english": "there"
-    },
-    {
-        "french": "appelé",
-        "english": "named,called"
-    },
-    {
-        "french": "premier plan",
-        "english": "foreground"
-    },
-    {
-        "french": "deux conteneurs",
-        "english": "double docker"
-    },
-    {
-        "french": "arrière plan",
-        "english": "background"
-    },
-    {
-        "french": "aussi",
-        "english": "too"
-    },
-    {
-        "french": "cabine téléphonique",
-        "english": "telephone booth"
-    },
-    {
-        "french": "rivière",
-        "english": "river"
-    },
-    {
-        "french": "bâtiment",
-        "english": "building"
-    },
-    {
-        "french": "décrire",
-        "english": "to describe"
-    },
-    {
-        "french": "créer",
-        "english": "to create"
-    },
-    {
-        "french": "portes ouvertes",
-        "english": "open days"
-    },
-    {
-        "french": "dépliant",
-        "english": "leaflet"
-    },
-    {
-        "french": "éducation physique",
-        "english": "physical education"
-    }    
+        "french": "ouest",
+        "english": "west"
+    }
 ]
